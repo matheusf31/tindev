@@ -1,6 +1,6 @@
 # Iniciando o projeto
 
-Primeiramente foi construida a API REST da aplicação, utilizando NodeJS.
+##### Primeiramente foi construida a API REST da aplicação, utilizando NodeJS.
 
 - Ferramentas utilizadas:
 
@@ -20,7 +20,7 @@ Primeiramente foi construida a API REST da aplicação, utilizando NodeJS.
 
   - Cors: permite que a aplicação seja acessada por qualquer endereço.
 
-Parte Web da aplicação:
+##### Parte Web da aplicação:
 
 - Ferramentas utilizadas:
 
