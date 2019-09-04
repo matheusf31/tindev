@@ -8,17 +8,17 @@ Primeiramente foi construida a API REST da aplicação, utilizando NodeJS.
 
   - Nodemon: para auxiliar na execução da aplicação em desenvolvimento;
 
-  - Insomnia: aplicação para testarmos nossa API;
+  - Insomnia: aplicação para teste da API;
 
-  - MongoDB Atlas: banco não relacional por ter uma facilidade de manuseamento, além de usar apenas relacionamentos simples e ser facilmente configurado (o mongoose foi utilizado para facilitar o trabalho com o BD utilizando apenas sintaxe JS);
+  - MongoDB Atlas: banco de dados não relacional (facilmente manuseável). Foi muito útil pois a aplicação trabalha apenas com relacionamentos simples e ele é facilmente configurado (o mongoose foi utilizado para facilitar o trabalho com o BD utilizando apenas sintaxe JS);
 
-  - API do github: buscamos as informações do usuário utilizando a API do github;
+  - API do github: para buscar as informações dos usuários utilizando a API do github;
 
-  - Axios: forma de fazer requisição a API externa;
+  - Axios: forma de fazer requisição à API externa;
 
-  - MongoDB compass comunity: para podermos acessar de forma visual nosso banco de dados e verificar o que está dentro dele, etc.;
+  - MongoDB compass comunity: para acessar de forma visual o banco de dados e verificar o que está dentro dele, etc.;
 
-  - Cors: permite que minha app seja acessada por qualquer endereço.
+  - Cors: permite que a aplicação seja acessada por qualquer endereço.
 
 Parte Web da aplicação:
 
