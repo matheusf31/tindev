@@ -12,3 +12,9 @@ Primeiramente foi construida a API REST da aplicação, utilizando NodeJS.
   --- axios: forma de fazer requisição a API externa;
   --- mongoDB compass comunity: para podermos acessar de forma visual nosso banco de dados e verificar o que está dentro dele, etc.
   --- cors: permite que minha app seja acessada por qualquer endereço.
+
+Parte Web da aplicação:
+
+-ferramentas utilizadas:
+--- create react-app: pré configura nossa aplicação (utilizando babel e web pack);
+--- teste
