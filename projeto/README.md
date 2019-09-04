@@ -25,3 +25,11 @@
 - Ferramentas utilizadas:
 
   - Create react-app: pré configura nossa aplicação (utilizando babel e web pack);
+
+##### Parte Mobile da aplicação:
+
+- Ferramentas utilizadas:
+
+  - Npx react-native init 'nome': para iniciar nosso projeto;
+
+  -
