@@ -1,4 +1,4 @@
-# Projeto Tindev
+# Iniciando o projeto
 
 Primeiramente foi construida a API REST da aplicação, utilizando NodeJS.
 
