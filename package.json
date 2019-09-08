@@ -6,7 +6,7 @@
   "author": "Matheus Filipe <mfcr031@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "cd projeto/backend && yarn start",
+    "start": "cd projeto/backend && node src/server.js",
     "build": "cd projeto/backend && npm install && cd .. && cd frontend && npm install && npm run build && cd .."
   },
   "dependencies": {
@@ -16,5 +16,6 @@
     "node": "10.16.3",
     "npm": "6.9.0",
     "yarn": "1.17.3"
-  }
+  },
+  "homepage": "https://tindevrocketseat.herokuapp.com/"
 }
