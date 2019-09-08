@@ -1,0 +1,12 @@
+{
+  "name": "tindev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matheusf31/Tindev.git",
+  "author": "Matheus Filipe <mfcr031@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cd projeto/backend && yarn start",
+    "build": "cd projeto/backend && npm install && cd .. && cd projeto/frontend && npm install && yarn start && cd .."
+  }
+}
