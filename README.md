@@ -2,4 +2,4 @@
 
 #### Projeto desenvolvido na SemanaOmnistack 8, conteúdo exclusico da Rocketseat.
 
-- [Projeto](./projetos)
+- [Projeto](../matheusf31/Tindev/projetos)
