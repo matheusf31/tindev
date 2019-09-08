@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "cd projeto/backend && yarn start",
-    "build": "cd projeto/backend && npm install && yarn start && cd .. && cd frontend && npm install && yarn && yarn start && cd .."
+    "build": "cd projeto/backend && npm install && cd .. && cd frontend && npm install && npm run build && cd .."
   },
   "dependencies": {
     "heroku": "^7.29.0"
