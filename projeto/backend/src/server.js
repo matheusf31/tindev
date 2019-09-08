@@ -19,10 +19,7 @@ io.on("connection", socket => {
   connectedUsers[user] = socket.id;
 });
 
-mongoose.connect(
-  "mongodb+srv://omnistack:123@cluster0-p0dh7.mongodb.net/omnistack8?retryWrites=true&w=majority",
-  { useNewUrlParser: true }
-);
+mongoose.connect(process.env.DB_URI, { useNewUrlParser: true });
 
 app.use("/", express.static(__dirname + "/../../frontend/dist"));
 
