@@ -11,6 +11,9 @@ const io = require("socket.io")(server);
 
 const connectedUsers = {};
 
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname + "/../../frontend/build")));
+
 io.on("connection", socket => {
   const { user } = socket.handshake.query;
 
@@ -20,8 +23,6 @@ io.on("connection", socket => {
 });
 
 mongoose.connect(process.env.DB_URI, { useNewUrlParser: true });
-
-app.use("/", express.static(__dirname + "/../../frontend/dist"));
 
 app.use((req, res, next) => {
   req.io = io;
