@@ -20,11 +20,17 @@
 
   - Cors: permite que a aplicação seja acessada por qualquer endereço.
 
+  - Web Socket (socket io): transição de mensagens entre frontend e backend em tempo real (no backend).
+
 ##### Parte Web da aplicação:
 
 - Ferramentas utilizadas:
 
   - Create react-app: pré configura nossa aplicação (utilizando babel e web pack);
+
+  ..
+
+  - socket.io-client: transição de mensagens entre frontend e backend em tempo real (no frontend);
 
 ##### Parte Mobile da aplicação:
 
@@ -32,4 +38,10 @@
 
   - Npx react-native init 'nome': para iniciar nosso projeto;
 
-  -
+  - React-navigation, react-native-gesture-handler, react-native-reanimated: basicamente para lidar com gestos de usuários;
+
+  - Axios: para acessarmos nossa API dentro do react-native;
+
+  - @react-native-community/async-storage: para salvar os dados carregados na página;
+
+  - socket.io-client: transição de mensagens entre frontend e backend em tempo real (no frontend);
