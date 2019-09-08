@@ -8,5 +8,13 @@
   "scripts": {
     "start": "cd projeto/backend && yarn start",
     "build": "cd projeto/backend && npm install && cd .. && cd frontend && npm install && yarn start && cd .."
+  },
+  "dependencies": {
+    "heroku": "^7.29.0"
+  },
+  "engine": {
+    "node": "10.16.3",
+    "npm": "6.9.0",
+    "yarn": "1.17.3"
   }
 }
