@@ -26,7 +26,7 @@ Um 'tinder' para devs desenvolvido na SemanaOmnistack 8, conteúdo exclusico da 
 
   - web socket (socket io): transição de mensagens entre frontend e backend em tempo real (no backend).
 
-##### Parte Web da aplicação:
+### Parte Web da aplicação:
 
 - Ferramentas utilizadas:
 
@@ -36,7 +36,7 @@ Um 'tinder' para devs desenvolvido na SemanaOmnistack 8, conteúdo exclusico da 
 
   - socket.io-client: transição de mensagens entre frontend e backend em tempo real (no frontend);
 
-##### Parte Mobile da aplicação:
+### Parte Mobile da aplicação:
 
 - Ferramentas utilizadas:
 
