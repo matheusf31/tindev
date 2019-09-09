@@ -51,3 +51,9 @@ Link do APP web (postado pelo Heroku): https://tindevrocketseat.herokuapp.com
   - @react-native-community/async-storage: para salvar os dados carregados na página;
 
   - socket.io-client: transição de mensagens entre frontend e backend em tempo real (no frontend);
+  
+### Observação
+
+Infelizmente não consegui integrar o app versão mobile no deploy do Heroku, mas, durante a produção, onde eu testei localmente, funcionou perfeitamente.
+
+Talvez em um futuro próximo eu arrume o servidor para que se possa testar cada um localmente, baixando ou clonando o repositório. Mas, de qualquer forma, deixarei o código do app mobile disponível.
