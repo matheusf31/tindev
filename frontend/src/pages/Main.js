@@ -13,11 +13,8 @@ import itsamatch from "../assets/itsamatch.png";
 export default function Main({ match }) {
   const [users, setUsers] = useState([]);
   const [matchDev, setMatchDev] = useState(null);
+  
 
-  /* 
-        1° parâmetro -> a função que eu quero executar
-        2° parâmetro -> quando quero executar a função 
-    */
   useEffect(() => {
     async function loadUsers() {
       const response = await api.get("/devs", {
