@@ -30,7 +30,7 @@ export default function Main({ match }) {
   }, [match.params.id]);
 
   useEffect(() => {
-    const socket = io("http://localhost:3030", {
+    const socket = io("https://tindevrocketseat.herokuapp.com/", {
       query: { user: match.params.id }
     });
 
