@@ -1,41 +1,40 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const routes = require("./routes");
 const cors = require("cors");
 require("dotenv").config();
-
-const routes = require("./routes");
-
 const app = express();
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
+var path = require("path");
+const port = process.env.PORT || 8080;
 
 const connectedUsers = {};
 
-app.use(express.static(__dirname));
-app.use(express.static(path.join(__dirname + "/../../frontend/build")));
-
 io.on("connection", socket => {
   const { user } = socket.handshake.query;
-
-  console.log(user, socket.id);
-
+  console.log(`Registrei o user ${user} com id ${socket.id}`);
   connectedUsers[user] = socket.id;
 });
-
-mongoose.connect(process.env.DB_URI, { useNewUrlParser: true });
 
 app.use((req, res, next) => {
   req.io = io;
   req.connectedUsers = connectedUsers;
-
   return next();
 });
 
 app.use(cors());
 app.use(express.json());
-app.use(routes);
-const port = process.env.PORT || 3030;
 
-server.listen(port, () => {
+mongoose.connect(process.env.DB_URI, {
+  useNewUrlParser: true
+});
+
+app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname + "/../../frontend/build")));
+/*app.use("/", express.static(__dirname + "/../../frontend/build"));*/
+app.use(routes);
+
+server.listen(port, function() {
   console.log(`Servidor executando em ${port}`);
 });
