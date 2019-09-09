@@ -7,7 +7,7 @@ const app = express();
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
 var path = require("path");
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3030;
 
 const connectedUsers = {};
 
@@ -32,7 +32,7 @@ mongoose.connect(process.env.DB_URI, {
 
 app.use(express.static(__dirname));
 app.use(express.static(path.join(__dirname + "/../../frontend/build")));
-/*app.use("/", express.static(__dirname + "/../../frontend/build"));*/
+
 app.use(routes);
 
 server.listen(port, function() {
