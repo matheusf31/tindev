@@ -6,8 +6,8 @@
   "author": "Matheus Filipe <mfcr031@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "cd projeto/backend && node src/server.js",
-    "build": "cd projeto/backend && npm install && cd .. && cd frontend && npm install && npm run build && cd .."
+    "start": "cd backend && node src/server.js",
+    "build": "cd backend && npm install && cd .. && cd frontend && npm install && npm run build && cd .."
   },
   "dependencies": {
     "heroku": "^7.29.0"
