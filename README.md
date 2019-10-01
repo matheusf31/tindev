@@ -56,4 +56,4 @@ Link do APP web (postado pelo Heroku): https://tindevrocketseat.herokuapp.com
 
 Infelizmente não consegui integrar o app versão mobile no deploy do Heroku, mas, durante a produção, onde eu testei localmente, funcionou perfeitamente.
 
-Talvez em um futuro próximo eu arrume o servidor para que se possa testar cada um localmente, baixando ou clonando o repositório. Mas, de qualquer forma, deixarei o código do app mobile disponível.
+Talvez em um futuro próximo, eu arrume o servidor para que se possa testar cada um localmente, baixando ou clonando o repositório. Mas, de qualquer forma, deixarei o código do app mobile disponível.
