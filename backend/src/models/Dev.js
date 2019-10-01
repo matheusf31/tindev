@@ -1,5 +1,5 @@
 const { Schema, model } = require("mongoose");
-
+//Este é o schema utilizado pelo banco de dados para a aplicação
 const DevSchema = new Schema(
   {
     name: {
