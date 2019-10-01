@@ -1,3 +1,4 @@
+// Este arquivo cuida das rotas da aplicação
 const express = require("express");
 const DevController = require("./controllers/DevController");
 const LikeController = require("./controllers/LikeController");
