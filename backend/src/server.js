@@ -11,6 +11,7 @@ const port = process.env.PORT || 3030;
 
 const connectedUsers = {};
 
+// Isto realiza a conexão utilizando o socket.io
 io.on("connection", socket => {
   const { user } = socket.handshake.query;
   console.log(`Registrei o user ${user} com id ${socket.id}`);
